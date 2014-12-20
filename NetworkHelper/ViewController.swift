@@ -8,17 +8,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    var jsonDict: NSDictionary?
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
+        var url = "http://api.open-notify.org/iss-now.json"
+        JSONDownload.getJsonData(url, completionHandler: { (jsonResult) -> (Void) in
+            self.jsonDict = jsonResult
+        })
+        
+        println(self.jsonDict)
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+    
+    
+
 
 
 }

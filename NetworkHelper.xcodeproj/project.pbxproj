@@ -14,6 +14,7 @@
 		63D1D3F11A15127100FBB18F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D1D3F01A15127100FBB18F /* Images.xcassets */; };
 		63D1D3F41A15127100FBB18F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D1D3F21A15127100FBB18F /* LaunchScreen.xib */; };
 		63D1D4001A15127100FBB18F /* NetworkHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1D3FF1A15127100FBB18F /* NetworkHelperTests.swift */; };
+		63D1D40A1A1512C700FBB18F /* JSONDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1D4091A1512C700FBB18F /* JSONDownload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		63D1D3F91A15127100FBB18F /* NetworkHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D1D3FE1A15127100FBB18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D1D3FF1A15127100FBB18F /* NetworkHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelperTests.swift; sourceTree = "<group>"; };
+		63D1D4091A1512C700FBB18F /* JSONDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDownload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				63D1D3E61A15127100FBB18F /* AppDelegate.swift */,
 				63D1D3EB1A15127100FBB18F /* ViewController.swift */,
+				63D1D4091A1512C700FBB18F /* JSONDownload.swift */,
 				63D1D3ED1A15127100FBB18F /* Main.storyboard */,
 				63D1D3F01A15127100FBB18F /* Images.xcassets */,
 				63D1D3F21A15127100FBB18F /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 				63D1D3EC1A15127100FBB18F /* ViewController.swift in Sources */,
 				63D1D3EA1A15127100FBB18F /* NetworkHelper.xcdatamodeld in Sources */,
 				63D1D3E71A15127100FBB18F /* AppDelegate.swift in Sources */,
+				63D1D40A1A1512C700FBB18F /* JSONDownload.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				63D1D4051A15127100FBB18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63D1D4061A15127100FBB18F /* Build configuration list for PBXNativeTarget "NetworkHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				63D1D4081A15127100FBB18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
